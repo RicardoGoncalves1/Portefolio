@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%; line-height: 1.8;
+    background-color: rgba(12, 3, 48, 0.789);
+    color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+}
+ 
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+}
+
+.video-container, h1, h2, h3, p, nav {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2%;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.bgimg-1 {
+    background-image: url('./Images/jinx.png'); 
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.bgimg-2 {
+    background-image: url("./Images/phoenix.webp");
+    min-height: 300px;
+    width: 100vw;
+}
+
+.bgimg-3 {
+    background-image: url("./Images/demonslayer.png");
+    min-height: 300px;
+    width: 100vw;
+}
+
+.w3-section a {
+    margin: 0 2px; text-decoration: none;
+}
+
+.icon-spacing {
+    margin-right: 5px; /* Adjust the space as needed */
+  }
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 91px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.background-clip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    filter: blur(20px);
+    z-index: 0;
+    object-fit: cover;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .background-clip {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.custom-margin {
+    margin-left: 100px;
+    margin-right: 20px;
+  }

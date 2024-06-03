@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="style.css">
+ <title>Portfolio</title>
+</head>
+
+
+<body>
+
+  <div class="w3-top w3-animate-opacity">
+    <div class="w3-bar" id="myNavbar">
+      <a href="#HOME" class="w3-bar-item w3-button w3-hide-large w3-hide-medium">HOME</a>
+      <a href="#home" class="w3-bar-item w3-button w3-hide-small">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user icon-spacing"></i>ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th icon-spacing"></i>PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope icon-spacing"></i>CONTACT</a>
+      <a href="./Works.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-laptop icon-spacing"></i>WORKS</a>
+      <a class="w3-bar-item w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </div>
+
+    <div id="navsmall" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <a href="./Works.html" class="w3-bar-item w3-button" onclick="toggleFunction()">WORKS</a>
+    </div>
+  </div>
+
+  <div class="bgimg-1 w3-display-container w3-opacity-min w3-hide-large w3-hide-medium" id="HOME">
+  </div>
+
+  <div class="container w3-hide-small">
+    <video autoplay loop muted plays-inline class="background-clip" id="home">
+      <source src="./Videos/Demon Slayer.mp4" type="video/mp4">
+      <source src="./Videos/Demon Slayer.mp4" type="video/webm"/>
+      <source src="./Videos/Demon Slayer.mp4" type="video/ogg">
+   </video>
+ </div>
+
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-xxlarge w3-wide w3-animate-opacity"> WELCOME</span>
+  </div>
+
+<main>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"> ABOUT ME</h3>
+  <p class="w3-center"><em> Hi! I'm Ricardo, a 
+    <a href="#about" target="_self">multimedia designer</a>, 
+    <a href="#portfolio" target="_self">video/image editor</a>, 
+    <a href="#about" target="_self"> animator</a> and
+    <a href="#about" target="_self"> illustrator</a></em></p>
+  <p> I am a reserved and honest person who values his own space. Digital Art, Music and Games are my 
+    passions, and for that reason, I take them up as hobbies. My inspirations come from my own life and day-to-day experiences.</p>
+</div>
+
+ <br>
+  
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle" id="portfolio">
+      <span class="w3-xxlarge w3-text-white w3-wide"> PORTFOLIO</span>
+    </div>
+  </div>
+  
+ <br>
+  
+ <h1> Video Editing </h1>
+ <h3> League of Legends Arcane - Jinx Edition (2021) </h3>
+
+  <div class="video-container w3-hide-small">
+    <video controls loop muted poster="./Images/jinx.png" style="width: 1000px;" id="jinx">
+    <source src="/Videos/Jinx Edition.mp4" type="video/mp4"/>
+    <source src="/Videos/Jinx Edition.mp4" type="video/webm"/>
+    <source src="/Videos/Jinx Edition.mp4" type="video/ogg">
+    <a href="/Videos/Jinx Edition.mp4" target="_blank">https://www.youtube.com/watch?v=NzKdsQdbCGI</a></video> 
+  </div>
+
+  <div class="video-container w3-hide-medium w3-hide-large">
+    <video controls loop muted poster="./Images/jinx.png" style="width: 100vw;" id="jinx">
+    <source src="/Videos/Jinx Edition.mp4" type="video/mp4"/>
+    <source src="/Videos/Jinx Edition.mp4" type="video/webm"/>
+    <source src="/Videos/Jinx Edition.mp4" type="video/ogg">
+    <a href="/Videos/Jinx Edition.mp4" target="_blank">https://www.youtube.com/watch?v=NzKdsQdbCGI</a></video>
+  </div>
+     
+  <div class="video-container">
+    <audio controls>
+    <source src="/Music/IN THREES.mp3" type="audio/mpeg"/>
+    <source src="/Music/IN THREES.mp3" type="audio/wav"/>
+    <source src="/Music/IN THREES.mp3" type="audio/ogg">
+    <p> Your browser doesn't support this audio. Here is a
+    <a href="/Music/IN THREES.mp3" target="_blank">https://www.youtube.com/watch?v=eNqH2MM48Ts</a> instead.</p></audio> 
+  </div>
+
+ <nav> <a href="https://www.youtube.com/watch?v=eNqH2MM48Ts" target="_blank"> IN THREES </a> </nav>
+
+ <br>
+
+ <h3> League of Legends Worlds 2024 - Fan Edit (2024) </h3>
+
+  <div class="video-container w3-hide-small">
+    <video controls loop muted poster="./Images/phoenix.webp" style="width: 1000px;">
+    <source src="Videos/Fan Video - League of Legends.mp4" type="video/mp4"/>
+    <source src="Videos/Fan Video - League of Legends.mp4" type="video/webm"/>
+    <source src="Videos/Fan Video - League of Legends.mp4" type="video/ogg"></video> 
+  </div>
+
+  <div class="video-container w3-hide-medium w3-hide-large">
+    <video controls loop muted poster="./Images/phoenix.webp" style="width: 100vw;">
+    <source src="Videos/Fan Video - League of Legends.mp4" type="video/mp4"/>
+    <source src="Videos/Fan Video - League of Legends.mp4" type="video/webm"/>
+    <source src="Videos/Fan Video - League of Legends.mp4" type="video/ogg"></video> 
+  </div>
+
+  <div class="video-container">
+    <audio controls>
+    <source src="/Music/JUST PRETEND.mp3" type="audio/mpeg"/>
+    <source src="/Music/JUST PRETEND.mp3" type="audio/wav"/>
+    <source src="/Music/JUST PRETEND.mp3" type="audio/ogg">
+    <p> Your browser doesn't support this audio. Here is a
+    <a href="/Music/JUST PRETEND.mp3" target="_blank">https://www.youtube.com/watch?v=ekU1dQjMsOQ</a>instead.</p></audio>
+  </div>
+
+ <nav> <a href="https://www.youtube.com/watch?v=ekU1dQjMsOQ" target="_blank"> JUST PRETEND </a> </nav>
+
+ <br>
+
+ <h3> Demon Slayer - Fan Edit (2024) </h3>
+
+  <div class="video-container w3-hide-small">
+    <video controls loop muted poster="./Images/demonslayer.png" style="width: 1000px;">
+    <source src="Videos/Demon Slayer.mp4" type="video/mp4"/>
+    <source src="Videos/Demon Slayer.mp4" type="video/webm"/>
+    <source src="Videos/Demon Slayer.mp4" type="video/ogg"></video> 
+  </div>
+
+  <div class="video-container w3-hide-medium w3-hide-large">
+    <video controls loop muted poster="./Images/demonslayer.png" style="width: 100vw;">
+    <source src="Videos/Demon Slayer.mp4" type="video/mp4"/>
+    <source src="Videos/Demon Slayer.mp4" type="video/webm"/>
+    <source src="Videos/Demon Slayer.mp4" type="video/ogg"></video> 
+  </div>
+
+  <div class="video-container">
+    <audio controls>
+    <source src="/Music/Dark Side.mp3" type="audio/mpeg"/>
+    <source src="/Music/Dark Side.mp3" type="audio/wav"/>
+    <source src="/Music/Dark Side.mp3" type="audio/ogg">
+    <p> Your browser doesn't support this audio. Here is a
+    <a href="/Music/JUST PRETEND.mp3" target="_blank">https://www.youtube.com/watch?v=ekU1dQjMsOQ</a>instead.</p></audio>
+  </div>
+
+  <nav> <a href="https://www.youtube.com/watch?v=rhQftHLS0gw" target="_blank"> DARK SIDE </a> </nav>
+
+ <br>
+
+  <div class="text w3-hide-small" style="margin-right: 46%;">
+    <h3> Use mask carefully! (2023) </h3>
+  </div>
+
+  <div class="text w3-hide-medium w3-hide-large">
+    <h3> Use mask carefully! (2023) </h3>
+  </div>
+
+  <div class="video-container w3-hide-small" style="padding-right: 46%;" id="flexbox1">
+     <video controls loop muted poster="./Images/Mask Image.png" style="width: 300px;">
+     <source src="Videos/Mask.MOV" type="video/mp4"/>
+     <source src="Videos/Mask.MOV" type="video/webm"/>
+     <source src="Videos/Mask.MOV" type="video/ogg"></video>
+  </div>
+
+  <div class="video-container w3-hide-medium w3-hide-large">  
+    <video controls loop muted poster="./Images/Mask Image.png" style="width: 100vw;">
+    <source src="Videos/Mask.MOV" type="video/mp4"/>
+    <source src="Videos/Mask.MOV" type="video/webm"/>
+    <source src="Videos/Mask.MOV" type="video/ogg"></video> 
+  </div>
+
+ <br>
+
+ <h2> More coming soon... </h2>
+
+ <br>
+ <br>
+     
+  <div class="bgimg-3 w3-display-container w3-opacity-min"> 
+    <div class="w3-display-middle" id="contact">
+      <span class="w3-xxlarge w3-text-white w3-wide"> CONTACT</span>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">My contacts</h3>
+    <p class="w3-center"><em>Send me a message if you are interested </em></p>
+    
+    <div class="w3-row w3-padding-32 w3-section">
+      <div class="w3-col m4 w3-container">
+        <img src="./Images/Maps.jpg" class="w3-image" style="width:100%">
+      </div>
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Alcobaça, PT<br>
+            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +351 910477090<br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ricas.goncalves11@gmail.com<br>
+          </div>
+        </div>
+  </div>
+
+</main>
+
+<footer>
+
+ <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey w3-hide-small"> <i class="fa fa-arrow-up w3-margin-right"> </i> To the top </a>
+    <a href="#HOME" class="w3-button w3-light-grey w3-hide-large w3-hide-medium"> <i class="fa fa-arrow-up w3-margin-right"> </i> To the top </a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.instagram.com/kalha.art/" target="_blank"> <i class="fa fa-instagram w3-hover-opacity"> </i> </a>
+    <a href="https://www.linkedin.com" target="_blank"> <i class="fa fa-linkedin w3-hover-opacity"> </i> </a>
+    <a href="https://www.youtube.com" target="_blank"> <i class="fa fa-youtube w3-hover-opacity"> </i> </a>
+    <a href="https://www.behance.net/ricardogonalves59" target="_blank"> <i class="fa fa-behance w3-hover-opacity"> </i> </a>
+    <a href="https://www.tiktok.com/explore" target="_blank"> <i class="fa fa-paper-plane w3-hover-opacity"> </i> </a>
+    <h6><p>Powered by<a href="./index.html" title="kalha" target="_blank" class="w3-hover-opacity">Kalha</a></p></h6>
+  </div>
+
+</footer>
+
+ <script src="script.js"></script>
+
+</body>
